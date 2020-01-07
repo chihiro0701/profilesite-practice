@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url("font/851MkPOP_002.ttf") format("truetype")
+}
+
+.top-img{
+    background-image: url("imgs/S__17162244.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.top-text{
+    text-align:center;
+    padding: 250px 0px;
+}
+
+.top-text h1{
+    font-size:100px;
+    font-family: "myfont";
+}
+
+.navbar-brand h3{
+    font-family: "myfont";
+}
+
+nav .fas, nav .far{
+    color: #888;
+}
+
+.night-sky{
+    background-image: url("imgs/fix-bg.jpg");
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+.night-sky h2{
+    font-family: "myfont";
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.carousel-item img {
+    height: 700px;
+}
+
+.carousel-caption h5{
+    font-family: "myfont";
+    font-size:60px;
+}
+
+.service-list{
+    background-color: #333;
+    padding: 50px;
+}
+
+.service-list h2{
+    font-family:"myfont";
+    font-size: 80px;
+    text-align: center;
+}
+
+.service-list img{
+    width: 100%;
+}
+
+.service-description{
+    padding: 30px;
+}
+
+.service1-name{
+    font-family:"myfont";
+    font-size:40px;
+}
+
+.info{
+    border:solid 2px white;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    background-color: #333;
+    padding: 30px 100px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: #888;
+    font-size: 15px;
+}
+
+footer ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: right;
+}
